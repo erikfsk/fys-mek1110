@@ -28,4 +28,4 @@ def make_plot(savefile="test.pdf",xlabel="Wealth [$]",ylabel="Probability [%]"):
 	plt.tight_layout()
 	plt.legend(loc="best",fontsize=20)
 	plt.savefig(savefile ,bbox_inches="tight")
-	plt.clf()
+	plt.show()
